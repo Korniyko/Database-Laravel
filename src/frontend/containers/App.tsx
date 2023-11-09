@@ -1,4 +1,4 @@
-import { getProducts } from '../api/getProducts';
+import { news } from '../api/news';
 import App from '../components/App';
 import { connect } from 'react-redux';
 
@@ -8,7 +8,7 @@ const mapStateToProps = (state:any) => {
 
 
 const mapDispatchToProps = (dispatch:any) => ({
-  getProducts : () => dispatch(getProducts()),
+  news : () => dispatch(news()),
 
 })
 

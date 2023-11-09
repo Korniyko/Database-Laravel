@@ -5,9 +5,9 @@ import { application } from "express"
 
 
 
-export const getProducts = () => (dispatch: any, getState: () => any): Promise<void> => {
+export const news = () => (dispatch: any, getState: () => any): Promise<void> => {
 
-    return fetch('http://localhost:6500/api/getProducts', {
+    return fetch('http://localhost:6500/api/news', {
         headers: {
             'Content-type': 'application/json;charset=utf-8'
         },

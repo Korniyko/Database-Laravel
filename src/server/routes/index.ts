@@ -1,8 +1,8 @@
 import { Router } from "express";
-import { getProducts } from "./getProducts";
+import { news  } from "./news";
 
 const routes = Router()
 
-routes.get('/getProducts',getProducts)
+routes.get('/news',news)
 
 export default routes;

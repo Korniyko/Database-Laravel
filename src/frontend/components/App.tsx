@@ -3,13 +3,13 @@ import './Reset.scss'
 
  
 type AppProps= {
-    getProducts:()=> void
+    news:()=> void
  }
 
-const App = ({getProducts}:AppProps)=>{
+const App = ({news}:AppProps)=>{
 
     useEffect(()=> {
-        getProducts()
+        news()
    },[])
   
 
