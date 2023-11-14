@@ -1,0 +1,72 @@
+body {
+    background-color: #ebe3da;
+    margin: 0 auto;
+    width: 90vw;
+}
+
+.AppContainer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    .buttonsSort {
+        justify-content: center;
+        display: flex;
+        gap: 50px;
+
+        button {
+            border-radius: 15px;
+            padding: 15px 30px;
+            background-color: black;
+            color: white;
+            transition: 0.3s ease
+        }
+
+        button:hover {
+            transform: scale(1.1);
+            background-color: #3498db;
+            color: white;
+        }
+    }
+
+    .newsContainer {
+        margin-top: 20px;
+        h1{
+            font-weight: 600;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 2px solid #3498db;
+
+            thead {
+                background-color: #3498db;
+                color: #fff;
+
+                tr {
+                    text-align: center;
+                }
+            }
+
+            thead,
+            tbody {
+                border-bottom: 2px solid #3498db;
+
+                td {
+                    padding: 10px;
+                }
+            }
+
+            tbody tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tbody tr:hover {
+                background-color: #3498db;
+                color: #fff;
+            }
+        }
+    }
+}
