@@ -152,5 +152,4 @@ const App = ({ news, newsState, getLoopNews, loopNewsState, getNewsWithParent, n
         </div>
     )
 }
-
 export default App;

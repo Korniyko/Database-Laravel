@@ -14,6 +14,7 @@ export const getNewsWithParent = (parentId: string) => (dispatch: any, getState:
             throw new Error(response.statusText)
 
         }
+        
         return response
     })
         .then((response: Response) => response.json())
